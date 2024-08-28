@@ -22,10 +22,6 @@ y_pred = regressor.predict(x_test)
 file_to_write = open('data/models/linreg_lr.pickle', 'wb')
 pickle.dump(regressor, file_to_write)
 
-DIG-692
-
-
-main
 # print(y_pred)
 
 
